@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--
+      Base theme is a transparent Material3 DayNight shell; the real color scheme
+      is applied by the Compose HomeHubTheme (which uses dynamic colors on API 31+).
+      Keeping it lightweight avoids the "flash of wrong color" before Compose runs.
+    -->
+    <style name="Theme.HomeHub" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+        <item name="android:windowLightStatusBar">true</item>
+    </style>
+</resources>

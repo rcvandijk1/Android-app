@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Home Hub</string>
+
+    <!-- Home screen -->
+    <string name="home_title">Home Hub</string>
+    <string name="home_empty_title">No devices yet</string>
+    <string name="home_empty_subtitle">Tap + to register your first device.</string>
+    <string name="home_add_device">Add device</string>
+    <string name="home_menu_manage_rooms">Manage rooms</string>
+    <string name="home_unassigned_room">Unassigned</string>
+    <string name="home_device_count">%1$d devices</string>
+    <string name="home_device_count_one">1 device</string>
+
+    <!-- Tile menu -->
+    <string name="tile_menu_edit">Edit</string>
+    <string name="tile_menu_move">Move to room…</string>
+    <string name="tile_menu_delete">Delete</string>
+
+    <!-- Edit screen -->
+    <string name="edit_title_new">New device</string>
+    <string name="edit_title_edit">Edit device</string>
+    <string name="edit_name_label">Device name</string>
+    <string name="edit_name_placeholder">e.g. Living Room Lights</string>
+    <string name="edit_section_icon">Icon</string>
+    <string name="edit_section_app">Linked app</string>
+    <string name="edit_section_room">Room</string>
+    <string name="edit_pick_app">Pick an app</string>
+    <string name="edit_change_app">Change</string>
+    <string name="edit_no_app_selected">No app selected</string>
+    <string name="edit_save">Save</string>
+    <string name="edit_delete">Delete</string>
+    <string name="edit_delete_confirm_title">Delete device?</string>
+    <string name="edit_delete_confirm_message">This device will be removed from Home Hub. The linked app itself is not affected.</string>
+    <string name="edit_delete_confirm_ok">Delete</string>
+    <string name="edit_cancel">Cancel</string>
+
+    <!-- Pickers -->
+    <string name="picker_search_apps">Search apps</string>
+    <string name="picker_icon_title">Choose an icon</string>
+    <string name="picker_room_title">Choose a room</string>
+    <string name="picker_room_new">＋ New room…</string>
+    <string name="picker_room_create">Create</string>
+    <string name="picker_room_name_label">Room name</string>
+
+    <!-- Rooms management -->
+    <string name="rooms_title">Rooms</string>
+    <string name="rooms_add">Add room</string>
+    <string name="rooms_empty">No rooms yet. Tap + to create one.</string>
+    <string name="rooms_delete_title">Delete room?</string>
+    <string name="rooms_delete_message">Devices in this room will become Unassigned.</string>
+    <string name="rooms_delete_ok">Delete</string>
+    <string name="rooms_rename">Rename</string>
+    <string name="rooms_move_up">Move up</string>
+    <string name="rooms_move_down">Move down</string>
+
+    <!-- Errors / toasts -->
+    <string name="launch_error_not_installed">App no longer installed — pick a new one.</string>
+    <string name="common_back">Back</string>
+    <string name="common_more">More</string>
+</resources>

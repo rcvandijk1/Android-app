@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Adaptive icon foreground. 108x108dp canvas; the inner 72x72dp (centered) is
+  the guaranteed-visible safe zone. We draw a simple outlined house glyph
+  that reads well under any mask (circle, squircle, square).
+-->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Roof -->
+    <path
+        android:fillColor="#E6F0F2"
+        android:pathData="M54,32 L80,52 L80,56 L76,56 L76,54 L54,37 L32,54 L32,56 L28,56 L28,52 Z" />
+
+    <!-- House body outline -->
+    <path
+        android:fillColor="#E6F0F2"
+        android:pathData="M34,54 L34,76 L50,76 L50,62 L58,62 L58,76 L74,76 L74,54 L70,54 L70,72 L62,72 L62,58 L46,58 L46,72 L38,72 L38,54 Z" />
+</vector>
