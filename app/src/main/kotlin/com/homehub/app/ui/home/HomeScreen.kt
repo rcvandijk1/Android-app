@@ -108,6 +108,10 @@ fun HomeScreen(
             return@Scaffold
         }
 
+        // Resolve composable-only resources up-front so the LazyVerticalGrid's
+        // (non-composable) item DSL can reuse them safely.
+        val unassignedTitle = stringResource(R.string.home_unassigned_room)
+
         LazyVerticalGrid(
             columns = GridCells.Adaptive(minSize = 160.dp),
             modifier = Modifier
@@ -120,8 +124,7 @@ fun HomeScreen(
             horizontalArrangement = Arrangement.spacedBy(12.dp),
         ) {
             groups.forEach { group ->
-                val title = group.room?.name
-                    ?: stringResource(R.string.home_unassigned_room)
+                val title = group.room?.name ?: unassignedTitle
 
                 // Section header spans all columns.
                 item(
